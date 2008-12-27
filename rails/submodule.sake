@@ -1,0 +1,5 @@
+desc 'Add Rails as a git submodule'
+task 'submodule' do
+  system("git submodule add git://github.com/rails/rails.git vendor/rails")
+  system("git commit -m 'Adding Rails as a submodule.' .gitmodules vendor/rails")
+end
