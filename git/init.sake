@@ -1,0 +1,7 @@
+namespace 'git' do
+  desc "Sets up a git repository with some extra configuration"
+  task :init do
+    # would do git inti
+    # set up .gitignore to do *.tmproj, .DS_Store
+  end
+end
